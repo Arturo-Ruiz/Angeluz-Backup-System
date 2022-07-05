@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "respaldo-database",
+  "private_key_id": "eabfd082c9ee1656e79393f03c4162d4d1257921",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAzWqRJ6oYXBiz\njmS/dw3D7S2EEF90QrdaxVfsedc2CwpiW6ecabffg33h8VS3llnSHutjwowXDMdw\nldwQXnNp+BMmL3JCX6g40UvaxBOq8/M5hNh4SdJPuFbxk6n7RCA84Sjl/OC0CoXA\nPQ8YTrd+Z84X4487iQqVAYNmwjhL0+AnbPnqreH2CG5RE7xxz5SooTgh9eEgKUfm\nTUIjC1bhZIWOhAElav5G3stQXaGA5G2KAl5zZwcntkYyZkBRtS+ktSn3k6ipfAuY\narJLhyYU8J16d/zoN7aC7qzkw4GJHks/bqL0BKyrd4+D9iB5ZJPeeAkXhgNMcPtB\nD//dYh6LAgMBAAECggEAElZ3Vam0H++tLxwoBkid4o4Nz4skc7u0vMlwUhRJ8otH\nnZCiIdpcRsIMQw/fwuZl/KTm4UIrw4rPnVcOQJr7LI+6d934vB9lB00WLeSLCljR\nlXLxM9+xmoDUpCgrTrQYF4eYNZJrvN6+AfQiGhRtQh9AFug/Q1EG1KKkNi3a35Ce\nUBp4vD2OpFPAXVnYj9qW1Xg9MLQ69KyifmV+wlj63ZZ+/st5zuOqJhpEAZW/RBQ5\nhOEIgiUPKxFiDUKr5cOZzWAYZf8nCXNZOCYtLZZTImfHHbaDMs8jEJq+VOWvqSkb\nM7b23ZtmCe1G8FNTNSH1oV5jzHfdoKgzVgUkMT1GQQKBgQDxR9++AEfXilW06aPg\nyG83Hy7cZk3o4bufSqGA+lePWoHxxwgZ6VbzeTeNhSdeJP+HMMNriREfkrgetH4/\nXrw6c2JQ4Ze2j1aKs68W2pwTT2lyHEJxAhAucfrAkQHxP/ZXZxemsrr+R2J+SQoc\nTf4+8NFEk8Hlabwtm2ft/ZizCQKBgQDMkHJsGhv/SCuoxEXVdXHVLwW3ToRj3RVB\npUEXMUFkXJwT+P6Wzjmsi26ko1R0kUAsOyIIokM7hdtIBRPRgnZt5Z9+NX0+r4qk\n1hUHi7dLzQUbs0sHi9CpNMz6akLv42G1cMFw7Htq0Xb/CfvOYIXsh6JIwC3vbZxF\nepiXcakF8wKBgFYhhTKLYRoFbPEHEpQ0mNcBj7Xn41oF8vc7Kgoj08v90DNiDHdL\nf9msZPNlHBeUd49oDeq+ZFl0A7waTJMMm372H5ul3IW0B32+BPvQkDSofYjZo7I5\nvVMHJy9E1H+tiJ/M0nmUhgIts3BHXI+cG+2WA+5KHMZrh1x0hJZFmBQZAoGAF8Dm\nKHtXqOr+dthjq4e5siGFrmVlphrz7u17g2/qwfanAQK2vVgxBkIilOeKVQbQxtIO\n/6Wn3O+MKO6+AGP/0H8LaCJZ6r+Df+SECJ5GqHykDTVijvvDPQKukp1oLGbg36q6\nK5yqMBsmkDLelHZM1sxhIcV/EABQVxkHQv6lu9UCgYBZfXLXrnqeaYvqBdUJWu2y\nFGPwijyXS05LszWRzvX2jL1/tGC5dIY23kFl3kHPJfnyflu7hTkOf5/e8dWhfQIW\nOhSxroJhWgkOHc6xGnii3omy7W0smIw6tL9uvK8XJHBiQkNCUzpo6s3J/rTWs1tU\n5PzuCY+1lVXkWad/N3uHHA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "respaldodatabase@respaldo-database.iam.gserviceaccount.com",
+  "client_id": "115241718055203823790",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/respaldodatabase%40respaldo-database.iam.gserviceaccount.com"
+}

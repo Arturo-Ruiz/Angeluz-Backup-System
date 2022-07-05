@@ -51,16 +51,18 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="card card-stats">
-                                &nbsp;
-                                <div class="card-header card-header-success card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                            <a href="upload.php">
+                                <div class="card card-stats">
+                                    &nbsp;
+                                    <div class="card-header card-header-success card-header-icon">
+                                        <div class="card-icon">
+                                            <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                        </div>
+                                        <h3 class="card-title">Realizar carga</h3>
                                     </div>
-                                    <h3 class="card-title">Realizar carga</h3>
+                                    &nbsp;
                                 </div>
-                                &nbsp;
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <a href="download.php">

@@ -15,9 +15,21 @@ try {
     $service = new Google_Service_Drive($client);
 
     $file_path = 'C:\Upload\test.txt';
-
+    $file_name = 'test.txt';
     $file = new Google_Service_Drive_DriveFile();
-    $file->setName('test.txt');
+
+    $resultado = $service->files->listFiles([
+        'q' => "name = '$file_name'",
+        'fields' => 'files(id, size)'
+    ]);
+    
+    $num = count($resultado);
+    
+    $fileId = $resultado[0]->id;
+
+    $service->files->delete($fileId);
+
+    $file->setName($file_name);
     $file->setParents(array("1Ai92X0uuovpO8Rcfeg-eXnzr3B0K3357"));
 
 
@@ -25,8 +37,6 @@ try {
         'data' => file_get_contents($file_path),
         'uploadType' => 'multipart',
     ));
-
-    
 
 } catch (Google_Service_Exception $gs) {
 

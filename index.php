@@ -29,7 +29,7 @@
                         </a>
                     </li>
                     <li class="nav-item active-pro ">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=+584128620300&text=Hola%20Henry!,%20El%20sistema%20necesita%20soporte%20t%C3%A9cnico!">
                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
                             <p>Soporte Tecnico</p>
                         </a>
@@ -63,16 +63,18 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="card card-stats">
-                                &nbsp;
-                                <div class="card-header card-header-primary card-header-icon">
-                                    <div class="card-icon">
-                                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                            <a href="download.php">
+                                <div class="card card-stats">
+                                    &nbsp;
+                                    <div class="card-header card-header-primary card-header-icon">
+                                        <div class="card-icon">
+                                            <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                                        </div>
+                                        <h3 class="card-title">Descargar Respaldo</h3>
                                     </div>
-                                    <h3 class="card-title">Descargar Respaldo</h3>
+                                    &nbsp;
                                 </div>
-                                &nbsp;
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +86,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script> made by
-                        <a href="https://www.creative-tim.com" target="_blank">Arturo Ruiz</a>.
+                        <a href="#" target="_blank">Arturo Ruiz</a>.
                     </div>
                 </div>
             </footer>

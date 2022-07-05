@@ -18,14 +18,14 @@ try {
     $file_name = 'test.txt';
     $file = new Google_Service_Drive_DriveFile();
 
-    $resultado = $service->files->listFiles([
+    $result = $service->files->listFiles([
         'q' => "name = '$file_name'",
         'fields' => 'files(id, size)'
     ]);
     
-    $num = count($resultado);
+    $num = count($result);
     
-    $fileId = $resultado[0]->id;
+    $fileId = $result[0]->id;
 
     $service->files->delete($fileId);
 
@@ -33,7 +33,7 @@ try {
     $file->setParents(array("1Ai92X0uuovpO8Rcfeg-eXnzr3B0K3357"));
 
 
-    $resultado = $service->files->create($file, array(
+    $result = $service->files->create($file, array(
         'data' => file_get_contents($file_path),
         'uploadType' => 'multipart',
     ));

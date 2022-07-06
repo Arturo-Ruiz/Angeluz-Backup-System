@@ -8,8 +8,9 @@ Angeluz backup system made with php using the google drive api 👨‍💻
 
 - PHP 7.4
 
-- Your google drive api key in JSON format
+- Your google drive api key service account credentials in JSON format
 
+- ❗🚧 Remember to give permissions in the folder where the files will be uploaded and downloaded in google drive to the service account otherwise it will not work
 
 ## Installation
 
@@ -24,7 +25,7 @@ Angeluz backup system made with php using the google drive api 👨‍💻
 - Set up the google drive api key service account credentials in JSON format in the root of the folder
 
 
-For Upload: 
+For Upload 👆☁ : 
 
 - In the upload.php 
 
@@ -50,7 +51,7 @@ For Upload:
 
 ```
 
-For Download: 
+For Download 👇☁: 
 
 - In the download.php 
 

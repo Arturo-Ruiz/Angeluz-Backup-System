@@ -101,7 +101,7 @@
 <script>
     Swal.fire(
         'Carga Realizada Correctamente!',
-        'Sus archivos han sido respaldados en google drive!',
+        'Sus archivos han sido respaldados en La nube!',
         'success'
     )
 </script>

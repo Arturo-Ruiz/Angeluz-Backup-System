@@ -101,7 +101,7 @@
 <script>
     Swal.fire(
         'Descarga Realizada Correctamente!',
-        'El respaldo ha sido descargado en las carpertas previamente definidas!',
+        'Respaldo descargado e instalado con exito!',
         'success'
     )
 </script>

@@ -17,7 +17,7 @@ try {
     $file_name = 'test.txt'; // File name to be download
 
     $result = $service->files->listFiles([ // List files in the user's Drive.
-        'q' => "name = 'test.txt'", // Search for a file by name.
+        'q' => "name = '".$file_name."'", // Search for a file by name.
         'fields' => 'files(id, size)' // Only return the file ID and size.
     ]);
 
@@ -34,7 +34,9 @@ try {
 
     $http = $client->authorize(); // Get the HTTP client.
 
-    $fp = fopen('C:\xampp\htdocs\Angeluz-Backup-System\download\test.txt', 'w'); // Open a file for writing
+    $download_folder = 'C:\xampp\htdocs\Angeluz-Backup-System\download\test.txt'; // Folder to save the file.
+    
+    $fp = fopen($download_folder, 'w'); // Open a file for writing
 
     $chunkSizeBytes = 1 * 1024 * 1024; // Download in 1 MB chunks
 

@@ -14,7 +14,7 @@ try {
     //code...
     $service = new Google_Service_Drive($client);
 
-    $file_path = 'C:\Upload\test.txt';
+    $file_path = 'C:\xampp\htdocs\Angeluz-Backup-System\upload.txt';
 
     $file_name = 'test.txt';
 

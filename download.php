@@ -58,6 +58,8 @@ try {
     }
     // close the file pointer
     fclose($fp);
+
+    header('Location: successful_download.php'); // Redirect to the success page.
 } catch (Google_Service_Exception $gs) { // Google Drive API error.
     $msj = json_decode($gs->getMessage()); // Get the error message.
     echo $msj->error->message(); // Print the error message.

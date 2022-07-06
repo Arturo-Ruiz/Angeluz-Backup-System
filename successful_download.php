@@ -100,8 +100,8 @@
 
 <script>
     Swal.fire(
-        'Carga Realizada Correctamente!',
-        'Sus archivos han sido respaldados en google drive!',
+        'Descarga Realizada Correctamente!',
+        'El respaldo ha sido descargado en las carpertas previamente definidas!',
         'success'
     )
 </script>

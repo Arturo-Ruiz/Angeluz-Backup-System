@@ -15,7 +15,9 @@ try {
     $service = new Google_Service_Drive($client);
 
     $file_path = 'C:\Upload\test.txt';
+
     $file_name = 'test.txt';
+
     $file = new Google_Service_Drive_DriveFile();
 
     $result = $service->files->listFiles([
@@ -30,6 +32,7 @@ try {
     $service->files->delete($fileId);
 
     $file->setName($file_name);
+    
     $file->setParents(array("1Ai92X0uuovpO8Rcfeg-eXnzr3B0K3357"));
 
 
